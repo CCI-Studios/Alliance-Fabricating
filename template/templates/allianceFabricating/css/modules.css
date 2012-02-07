@@ -3,29 +3,43 @@
 
 /* @group hmenu */
 .moduletable_hmenu {}
+.module_hmenu {}
 
 .moduletable_hmenu > ul {
+.module_hmenu ul {
 	margin: 0;
 	padding: 0;
 }
 
 .moduletable_hmenu > ul > li {
+.module_hmenu ul li {
 	display: inline-block;
 	*display: inline;
 	*zoom: 1;
 	position: relative;
 	
 	padding: 0 5px;
+		
+	padding: 0 18px;
 }
 
 .moduletable_vmenu > ul > li > a,
 .moduletable_vmenu > ul > li > span {
 	display: block;
+.module_hmenu.primary {
+	background: url('../images/menu_shadow.png') bottom center no-repeat;
+	padding-bottom: 10px;
+	line-height: 42px;
+	font-size: 15px;
 }
 
 .moduletable_vmenu > ul > li > a span,
 .moduletable_vmenu > ul > li > span span {
 	
+.module_hmenu.primary > div {
+	width: 940px;
+	padding: 0 10px;
+	margin: 0 auto;
 }
 
 .moduletable_vmenu ul ul {
