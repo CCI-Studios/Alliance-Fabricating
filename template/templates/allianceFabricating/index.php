@@ -53,26 +53,33 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 </head>
 
 <body class="<?= $menu ?>">
-
-	<div id="wrapper">
-		<header>
-			<jdoc:include type="modules" name ="header" style="xhtml" />
-		</header>
-
-		<div id="main">
-			<aside>
-				<jdoc:include type="modules" name="left" style="xhtml" />
-			</aside>
-
-			<article>
-				<jdoc:include type="component" />
-			</article>
-		</div>
-
-		<footer>
-			<jdoc:include type="modules" name="footer" style="xhtml" />
-		</footer>
+	
+	<div id="nav">
+		<jdoc:include type="modules" name="nav" style="rounded" />
 	</div>
+	<div id="header">
+		<jdoc:include type="modules" name="header" style="rounded" />
+	</div>
+	<div id="body"><div class="container">
+		<div id="content">
+			<jdoc:include type="component" />
+		</div>
+		<div id="sidebar">
+			<jdoc:include type="modules" name="sidebar" style="xhtml" />
+		</div>
+		<div class="clear"></div>
+		<div id="bottom">
+			<jdoc:include type="modules" name="bottom" style="xhtml" />
+		</div>
+		<div class="clear"></div>
+	</div></div>
+	<div id="footer"><div class="container">
+		<div id="copyright">
+			<p>&copy; <?php echo date('Y') ?> Alliance Fabricating Ltd. All Rights Reserved.<br>
+			Site by <a href="http://ccistudios.com" target="_blank">CCI Studios</a></p>
+		</div>
+		<jdoc:include type="modules" name="footer" style="xhtml" />
+	</div></div>
 
 	<div class="hidden">
 		<jdoc:include type="modules" name="hidden" style="raw" />
