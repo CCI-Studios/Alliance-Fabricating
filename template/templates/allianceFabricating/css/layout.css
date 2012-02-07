@@ -24,7 +24,7 @@
 #sidebar {
 	float: left;
 	width: 280px;
-	padding: 0 0px 0 20px;
+	padding: 0 0px 0px 20px;
 }
 
 #bottom {
@@ -34,9 +34,11 @@
 #footer {
 	background: url('../images/footer_borderTop.png') top center no-repeat;
 	padding: 20px 0;
+	color: #cecece;
 }
 
 #copyright {
+	float: left;
 	background: url('../images/bg_copyright.png') top left no-repeat;
 	font-size: 9px;
 	padding: 0 0 20px 25px;
