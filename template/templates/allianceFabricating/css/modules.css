@@ -44,15 +44,26 @@
 	margin: 0;
 	padding: 0;
 	list-style: none;
+.module.slogan {
+	background: url('../images/slogan_shadowTop.png') top center no-repeat;
+	padding-top: 19px;
+	line-height: 50px;
 }
 
 .moduletable_vmenu ul ul {
 	margin: 0.5em 0 1em 1em;
 	list-style: none;
+.module.slogan > div {
+	background: url('../images/slogan_shadowBottom.png') bottom center no-repeat;
+	padding-bottom: 10px;
 }
 
 .moduletable_vmenu li {
 	
+.module.slogan > div > div {
+	width: 940px;
+	margin: 0 auto;
+	text-align: center;
 }
 /* /vmenu */
 
