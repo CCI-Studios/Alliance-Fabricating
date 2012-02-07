@@ -56,3 +56,5 @@
 }
 /* /vmenu */
 
+#sidebar .moduletable:first-child {margin-top: 0;}
+#sidebar .moduletable {margin-top: 40px;}
