@@ -1,6 +1,6 @@
 /* elements */
 body, select, input, textarea {
-	color: #e3e3e3; /* off black */
+	color: #ffffff; /* off black */
 	font-family: Times, Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	background: #000000 url('../images/bg.jpg') top center no-repeat;
@@ -14,7 +14,6 @@ p {margin: 0;}
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
 	text-transform: uppercase;
-	margin-top: 0;
 }
 
 h3 {
