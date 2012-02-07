@@ -101,6 +101,14 @@
 	text-align: center;
 }
 
+.module.masthead {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 15px;
+	overflow: hidden;
+	text-align: center;
+}
+
 #sidebar .moduletable,
 #bottom .moduletable {
 	background: url('../images/bg_module.png') bottom right no-repeat;
