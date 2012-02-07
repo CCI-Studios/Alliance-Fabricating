@@ -27,6 +27,7 @@
 	</files>
 
 	<positions>
+		<position>nav</position>
 		<position>header</position>
 		<position>sidebar</position>
 		<position>bottom</position>
