@@ -71,5 +71,18 @@
 	text-align: center;
 }
 
+#sidebar .moduletable,
+#bottom .moduletable {
+	background: url('../images/bg_module.png') bottom right no-repeat;
+	padding-bottom: 11px;
+}
+
 #sidebar .moduletable:first-child {margin-top: 0;}
-#sidebar .moduletable {margin-top: 40px;}
+#sidebar .moduletable {margin-top: 29px;}
+
+#bottom .moduletable:first-child {margin-left: 0;}
+#bottom .moduletable {
+	float: left;
+	width: 300px;
+	margin-left: 20px;
+}
