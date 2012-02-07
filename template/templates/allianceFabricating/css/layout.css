@@ -14,6 +14,8 @@
 	padding-bottom: 40px;
 }
 
+.home #body {background: url('../images/bg_bodyHome.jpg') top center no-repeat;}
+
 #content {
 	float: left;
 	width: 620px;
