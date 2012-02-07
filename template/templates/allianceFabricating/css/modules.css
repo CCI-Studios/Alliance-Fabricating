@@ -30,6 +30,23 @@
 	margin: 0 auto;
 }
 
+/* secondary menu */
+
+.moduletable_hmenu.secondary {
+	float: right;
+	font-size: 11px;
+}
+
+.moduletable_hmenu.secondary ul > li:first-child {border-left: none;}
+.moduletable_hmenu.secondary ul > li {
+	border-left: 1px solid #cecece;
+	line-height: 11px;
+	padding: 0 14px;
+}
+
+.moduletable_hmenu.secondary a {color: #cecece;}
+.moduletable_hmenu.secondary a:hover {color: #ffffff; text-decoration: none;}
+
 .module.logo {
 	padding: 9px 10px 0 10px;
 	width: 940px;
