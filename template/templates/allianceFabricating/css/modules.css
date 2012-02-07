@@ -113,6 +113,6 @@
 #bottom .moduletable:first-child {margin-left: 0;}
 #bottom .moduletable {
 	float: left;
-	width: 300px;
-	margin-left: 20px;
+	width: 280px;
+	margin-left: 50px;
 }
