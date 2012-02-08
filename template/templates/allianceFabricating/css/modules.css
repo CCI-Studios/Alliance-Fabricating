@@ -84,22 +84,27 @@
 	text-align: center;
 }
 
-.module.slogan {
+.module.pageTitle {
 	background: url('../images/slogan_shadowTop.png') top center no-repeat;
-	padding-top: 19px;
+	padding-top: 15px;
 	line-height: 50px;
+	font-size: 18px;
 }
 
-.module.slogan > div {
+.module.pageTitle > div {
 	background: url('../images/slogan_shadowBottom.png') bottom center no-repeat;
 	padding-bottom: 10px;
 }
 
-.module.slogan > div > div {
+.module.pageTitle > div > div {
 	width: 940px;
 	margin: 0 auto;
-	text-align: center;
+	text-align: left;
 }
+
+.module.pageTitle img {vertical-align: middle;}
+
+.home .pageTitle {text-align: center; text-transform: none;}
 
 .module.masthead {
 	overflow: hidden;
