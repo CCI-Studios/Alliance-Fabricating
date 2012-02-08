@@ -33,7 +33,20 @@
 }
 
 .module_hmenu.primary ul > li {
-	padding: 13px 18px;
+	padding: 13px 0 13px 18px;
+}
+
+.module_hmenu.primary ul > li:hover {
+	background: url('../images/menu_rollover.png') left center no-repeat;
+}
+
+.module_hmenu.primary ul > li > a {
+	padding-right: 18px;
+}
+
+.module_hmenu.primary ul > li:hover > a {
+	background: url('../images/menu_rollover.png') right center no-repeat;
+	text-decoration: none;
 }
 
 .module_hmenu.primary ul > li > ul {display: none;}
@@ -47,7 +60,7 @@
 }
 
 .module_hmenu.primary ul > li > ul > li {
-	width: 160px;
+	width: 140px;
 	white-space:nowrap;
 	line-height: 20px;
 	padding: 0 10px;
@@ -57,9 +70,15 @@
 	background: #343434;
 }
 
-.module_hmenu.primary ul > li > ul > li > a:hover {
-	text-decoration: none;
+.module_hmenu.primary ul > li > ul > li > a {
+	padding: 0;
 }
+
+.module_hmenu.primary ul > li:hover > ul > li > a {
+	text-decoration: none;
+	background: none;
+}
+
 /* secondary menu */
 
 .moduletable_hmenu.secondary {
