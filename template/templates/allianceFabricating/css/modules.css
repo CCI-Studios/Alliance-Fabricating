@@ -102,12 +102,29 @@
 }
 
 .module.masthead {
-	width: 100%;
-	margin: 0 auto;
-	padding-top: 15px;
 	overflow: hidden;
-	text-align: center;
+	background: url('../images/masthead_image.jpg') top center no-repeat;
 }
+
+.module.masthead > div {
+	position:relative;
+	height: 300px;
+}
+
+.module.masthead > div > div {
+	position: absolute;
+	bottom: 0px;
+	padding: 0 0 10px 0;
+	background: url('../images/bg_mastheadText.png') top center repeat;
+	width: 100%;
+}
+
+.custom.masthead {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+.module.masthead h2 {margin-bottom: 10px;}
 
 #sidebar .moduletable,
 #bottom .moduletable {
