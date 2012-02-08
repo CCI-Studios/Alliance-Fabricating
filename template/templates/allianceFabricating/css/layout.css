@@ -12,9 +12,10 @@
 #body {
 	background: url('../images/bg_body.jpg') top center no-repeat;
 	padding-bottom: 40px;
+	margin-top: 18px;
 }
 
-.home #body {background: url('../images/bg_bodyHome.jpg') top center no-repeat;}
+.home #body {background: url('../images/bg_bodyHome.jpg') top center no-repeat; margin-top: 0;}
 
 #content {
 	float: left;
