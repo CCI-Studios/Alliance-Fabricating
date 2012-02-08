@@ -29,3 +29,12 @@ a:hover {
 	color: #ffffff;
 	text-decoration: underline;
 }
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+li {
+	color: red;
+	list-style: inside;
+}
