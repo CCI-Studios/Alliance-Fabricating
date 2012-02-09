@@ -1,7 +1,15 @@
+ul.sigProClassic {
+	margin: -8px 0 0 !important;
+}
+
 ul.sigProClassic li.sigProThumb span.sigProLinkOuterWrapper {
 	padding: 0;
 }
 
 ul.sigProClassic li.sigProThumb span.sigProLinkWrapper {
 	margin: 0;
+}
+
+li.sigProClear {
+	list-style: none;
 }
