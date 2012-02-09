@@ -3,6 +3,7 @@ ul.sigProClassic {
 }
 
 ul.sigProClassic li.sigProThumb {
+	background: none;
 	margin: 0 20px 10px 0;
 }
 
