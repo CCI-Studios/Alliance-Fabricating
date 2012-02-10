@@ -21,12 +21,16 @@
 }
 
 .module_hmenu.primary {
-	background: url('../images/menu_shadow.png') bottom center no-repeat;
-	padding-bottom: 10px;
+	background: url('../images/bg_menu.png') top center repeat-x;
 	font-size: 15px;
 }
 
 .module_hmenu.primary > div {
+	background: url('../images/menu_shadow.png') bottom center no-repeat;
+	padding-bottom: 10px;
+}
+
+.module_hmenu.primary > div > div {
 	width: 940px;
 	padding: 0px 10px;
 	margin: 0 auto;
