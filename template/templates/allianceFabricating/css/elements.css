@@ -2,10 +2,8 @@
 body, select, input, textarea {
 	color: #ffffff; /* off black */
 	font-family: Times, Helvetica, Arial, sans-serif;
-	font-size: 14px;
-	background: #000000 url('../images/bg.jpg') top center no-repeat;
-	line-height: 16px;
-	
+	font-size: 15px;
+	line-height: 17px;
 	background: #000000 url('../images/bg_inner.jpg') top center no-repeat;
 }
 
