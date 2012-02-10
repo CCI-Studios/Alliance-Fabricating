@@ -37,15 +37,16 @@
 }
 
 .module_hmenu.primary ul > li {
-	padding: 13px 0 13px 18px;
+	padding: 12px 0 13px 30px;
 }
 
 .module_hmenu.primary ul > li:hover {
-	background: url('../images/menu_rollover.png') left center no-repeat;
+	background: url('../images/menu_rollover.png') 17px center no-repeat;
 }
 
 .module_hmenu.primary ul > li > a {
-	padding-right: 18px;
+	padding-right: 12px;
+	margin-right: 18px;
 }
 
 .module_hmenu.primary ul > li:hover > a {
@@ -53,32 +54,49 @@
 	text-decoration: none;
 }
 
-.module_hmenu.primary ul > li > ul {display: none;}
-
-.module_hmenu.primary ul > li:hover > ul {
-	background: #404040;
-	display: block;
-	position: absolute;
-	left: 15px;
-	margin-top: 13px;
+.module_hmenu.primary ul > li.parent:hover {
+	background: #484848 url('../images/menu_rollover.png') 17px center no-repeat;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
 }
 
-.module_hmenu.primary ul > li > ul > li {
-	width: 140px;
+.module_hmenu.primary ul > li.parent:hover a {
+}
+
+.module_hmenu.primary ul > li > div > ul {display: none;}
+
+.module_hmenu.primary ul > li:hover > div {
+}
+
+.module_hmenu.primary ul > li:hover > div > ul {
+	background: url('../images/dropdown_bottom.png') bottom center no-repeat;
+	padding-bottom: 13px;
+	display: block;
+	margin-top: 13px;
+	position: absolute;
+	left: -9px;
+
+}
+
+.module_hmenu.primary ul > li > div > ul > li {
+	background: url('../images/dropdown_middle.png') center center repeat-y;
+	width: 178px;
 	white-space:nowrap;
 	line-height: 20px;
-	padding: 0 10px;
-}
-
-.module_hmenu.primary ul > li > ul > li:hover {
-	background: #343434;
-}
-
-.module_hmenu.primary ul > li > ul > li > a {
 	padding: 0;
 }
 
-.module_hmenu.primary ul > li:hover > ul > li > a {
+.module_hmenu.primary ul > li > div > ul > li:hover {
+	background: url('../images/dropdown_middle.png') center center repeat-y;
+	
+	/*background: #343434;*/
+	box-shadow: none;
+}
+
+.module_hmenu.primary ul > li > div > ul > li > a {
+	padding: 0 0 0 20px;
+}
+
+.module_hmenu.primary ul > li:hover > div > ul > li > a {
 	text-decoration: none;
 	background: none;
 }
