@@ -82,8 +82,8 @@
 	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 
 	background: #484848;
-	behavior: url('templates/allianceFabricating/resources/PIE.htc');
-	-pie-poll: true;
+	behavior: url('/templates/allianceFabricating/resources/PIE.htc');
+	/*-pie-poll: true;*/
 	-pie-watch-ancestors: 1;
 	*zoom: 1;
 }
