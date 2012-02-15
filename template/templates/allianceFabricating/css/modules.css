@@ -83,6 +83,8 @@
 
 	background: #484848;
 	behavior: url('templates/allianceFabricating/resources/PIE.htc');
+	-pie-poll: true;
+	-pie-watch-ancestors: 1;
 	*zoom: 1;
 }
 .module_hmenu.primary ul > li:hover div { display: block; }
