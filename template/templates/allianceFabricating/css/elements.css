@@ -41,7 +41,11 @@ ul {
 	margin: 0;
 	padding: 0;
 }
+
 li {
 	color: red;
+}
+
+#body li {
 	list-style: inside;
 }
