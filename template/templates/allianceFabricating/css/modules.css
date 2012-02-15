@@ -62,7 +62,7 @@
 .module_hmenu.primary .menu > li.parent {}
 .module_hmenu.primary .menu > li.parent > a {}
 
-.module_hmenu.primary .menu > li.parent:hover { background: url('../images/menu_over.png') top left no-repeat }
+.module_hmenu.primary .menu > li.parent:hover { background: url('../images/menu_over.png') left 1px no-repeat }
 .module_hmenu.primary .menu > li.parent:hover > a { background: url('../images/menu_over.png') bottom right no-repeat}
 .module_hmenu.primary .menu > li:hover > a span { background: url('../images/menu_rollover.png') left no-repeat;}
 .module_hmenu.primary .menu > li:hover > a span span { background-position: right center; }
