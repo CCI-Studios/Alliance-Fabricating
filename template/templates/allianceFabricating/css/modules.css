@@ -45,7 +45,7 @@
 .module_hmenu.primary ul > li a {
 	display: block;
 	text-decoration: none;
-	padding: 0 18px 0 8px;
+	padding: 0 25px 0 15px;
 	margin-left: 10px;
 }
 
@@ -85,7 +85,7 @@
 }
 
 .module_hmenu.primary ul ul li {
-	width: 178px;
+	width: 159px;
 	white-space:nowrap;
 	line-height: 20px;
 	padding: 0;
@@ -96,7 +96,7 @@
 	background: #323232;
 }
 
-.module_hmenu.primary ul ul a {padding: 0 0 0 20px;}
+.module_hmenu.primary ul ul a {padding: 0 0 0 10px;}
 
 
 /* secondary menu */
