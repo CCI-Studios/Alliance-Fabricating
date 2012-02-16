@@ -82,12 +82,8 @@
 	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 
 	background: #484848;
-	behavior: url('/templates/allianceFabricating/resources/PIE.htc');
-	/*-pie-poll: true;*/
-	-pie-watch-ancestors: 1;
-	*zoom: 1;
 }
-.module_hmenu.primary ul > li:hover div { display: block; }
+.module_hmenu.primary ul > li:hover div {display: block;}
 
 .module_hmenu.primary ul > li ul {
 	padding-bottom: 13px;
@@ -132,9 +128,9 @@
 	margin: 0 auto;
 	text-align: center;
 }
-.ie7 .module.logo {
-	padding: 18px 10px 0 10px;
-}
+.ie7 .module.logo {padding: 15px 10px 0 10px;}
+.ie8 .module.logo {padding: 12px 10px 0 10px;}
+
 
 .module.pageTitle {
 	background: url('../images/slogan_shadowTop.png') top center no-repeat;
