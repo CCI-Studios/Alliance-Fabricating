@@ -1,0 +1,23 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	background: #fff;
+}
+
+.logo {
+	text-align: center;
+}
+
+a {
+	color: #f23538;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #f23538;
+	text-decoration: underline;
+}
+
+ul {
+	font-weight: bold;
+}
