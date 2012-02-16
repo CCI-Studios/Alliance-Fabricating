@@ -30,9 +30,10 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 
 <head>
 	<meta charset="utf-8" />
-	<?= ($testing)? '':  '<meta http-equiv="X-UA-Compatible" contents="IE=edge,chrome=1">' ?>
 
  	<jdoc:include type="head" />
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=IE8">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="/templates/<?= $this->template ?>/resources/favicon.ico">
@@ -55,14 +56,24 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 
 <body class="<?= $menu ?>">
 	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.js"></script>
+  <script>
+   // You may want to place these lines inside an onload handler
+   CFInstall.check({
+     mode: "overlay",
+		 url: "/?tmpl=gcf"
+   });
+  </script>
+	
 	<div id="nav">
 		<jdoc:include type="modules" name="nav" style="rounded" />
 	</div>
 	<div id="header">
 		<jdoc:include type="modules" name="header" style="rounded" />
 		<div class="clear"></div>
-		
 	</div>
+	<div class="clear"></div>
+	
 	<div id="body"><div class="container">
 		<div id="content">
 			<jdoc:include type="component" />
@@ -88,6 +99,10 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 	<div class="hidden">
 		<jdoc:include type="modules" name="hidden" style="raw" />
 	</div>
+	
+	<div id="prompt">
+   <!-- if IE without GCF, prompt goes here -->
+  </div>
 
 	<!-- load scripts -->
 	<?php if ($testing): ?>
