@@ -128,8 +128,8 @@
 	margin: 0 auto;
 	text-align: center;
 }
-.ie7 .module.logo {padding: 15px 10px 0 10px;}
-.ie8 .module.logo {padding: 12px 10px 0 10px;}
+.ie7 .module.logo { padding: 15px 10px 0 10px; }
+.ie8 .module.logo { padding: 12px 10px 0 10px; }
 
 
 .module.pageTitle {
