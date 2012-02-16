@@ -45,3 +45,18 @@
 	font-size: 9px;
 	padding: 0 0 20px 25px;
 }
+
+.chromeFrameInstallDefaultStyle {
+  width: 100%; /* default is 800px */
+  border: 5px solid blue;
+	margin-top: 50px;
+}
+
+.chromeFrameOverlayContent {
+	margin-top: -250px;
+	height: 400px;
+}
+
+.chromeFrameOverlayContent IFRAME {
+	height: 400px;
+}
