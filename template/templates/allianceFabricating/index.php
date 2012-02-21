@@ -33,7 +33,7 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 
  	<jdoc:include type="head" />
 	
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=IE8">
+	<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=IE8"> -->
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="/templates/<?= $this->template ?>/resources/favicon.ico">
@@ -87,6 +87,7 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 		</div>
 		<div class="clear"></div>
 	</div></div>
+
 	<div id="footer"><div class="container">
 		<div id="copyright">
 			<p>&copy; <?php echo date('Y') ?> Alliance Fabricating Ltd. All Rights Reserved.<br>
