@@ -42,9 +42,11 @@
 #copyright {
 	float: left;
 	background: url('../images/bg_copyright.png') top left no-repeat;
-	font-size: 9px;
+	font-size: 11px;
 	padding: 0 0 20px 25px;
 }
+
+#copyright p {margin: 0}
 
 .chromeFrameInstallDefaultStyle {
   width: 100%; /* default is 800px */
