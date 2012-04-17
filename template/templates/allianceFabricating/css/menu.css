@@ -105,7 +105,7 @@
 
 .moduletable_hmenu.secondary {
 	float: right;
-	font-size: 11px;
+	font-size: 14px;
 }
 
 .moduletable_hmenu.secondary ul > li:first-child {border-left: none;}
