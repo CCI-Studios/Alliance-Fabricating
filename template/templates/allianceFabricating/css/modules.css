@@ -26,6 +26,8 @@
 	text-align: left;
 }
 
+.module.pageTitle p {margin: 0}
+
 .module.pageTitle img {vertical-align: middle;}
 
 .home .pageTitle {text-align: center; text-transform: none;}
