@@ -17,3 +17,14 @@
 	font-style: italic;
 	color: #ed1c2a;
 }
+
+.items-leading h1 {
+	font-size: 14px;
+	color: #ed1c2a;
+	margin-bottom: 0;
+	text-transform: none;
+}
+
+.items-leading div {margin-bottom: 3em}
+
+.items-leading div p {margin-top: 0}
