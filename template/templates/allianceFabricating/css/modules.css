@@ -63,9 +63,6 @@
 	padding-bottom: 11px;
 }
 
-#sidebar .moduletable:first-child {margin-top: 0;}
-#sidebar .moduletable {margin-top: 29px;}
-
 #bottom .moduletable:first-child {margin-left: 0;}
 #bottom .moduletable {
 	float: left;
