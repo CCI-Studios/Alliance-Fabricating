@@ -6,10 +6,6 @@ body, select, input, textarea {
 	background: #000000 url('../images/bg_inner.jpg') top center no-repeat;
 }
 
-.home body { background: #000000 url('../images/bg_home.jpg') top center no-repeat; }
-
-/* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
-
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
 	text-transform: uppercase;
