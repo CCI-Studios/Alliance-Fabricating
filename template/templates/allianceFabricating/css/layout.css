@@ -38,6 +38,7 @@
 	background: url('../images/footer_borderTop.png') top center no-repeat;
 	padding: 20px 0;
 	color: #cecece;
+	position: relative;
 }
 
 #copyright {
