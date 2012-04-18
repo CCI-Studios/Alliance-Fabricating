@@ -23,3 +23,11 @@ input:invalid, textarea:invalid {
 /* Make buttons play nice in IE:
    www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
 button {  width: auto; overflow: visible; }
+
+.ccms_form_element {padding-left: 0}
+
+.ccms_form_element label {
+	width: 100px;
+}
+
+.submitButton {margin-left: 100px}
