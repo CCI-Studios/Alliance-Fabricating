@@ -14,6 +14,7 @@ defined('_JEXEC') or die;
 <?php if ($grouped) : ?>
 	<?php foreach ($list as $group_name => $group) : ?>
 	<li>
+		<h<?php echo $item_heading; ?>><?php echo $group_name; ?></h<?php echo $item_heading; ?>>
 		<ul>
 			<?php foreach ($group as $item) : ?>
 				<li>
@@ -83,23 +84,7 @@ defined('_JEXEC') or die;
 	<?php endforeach; ?>
 <?php else : ?>
 	<?php foreach ($list as $item) : ?>
-	    <li>
-	   	<h<?php echo $item_heading; ?>>
-	   	<?php if ($params->get('link_titles') == 1) : ?>
-		<a class="mod-articles-category-title <?php echo $item->active; ?>" href="<?php echo $item->link; ?>">
-		<?php echo $item->title; ?>
-        <?php if ($item->displayHits) :?>
-			<span class="mod-articles-category-hits">
-            (<?php echo $item->displayHits; ?>)  </span>
-        <?php endif; ?></a>
-        <?php else :?>
-        <?php echo $item->title; ?>
-        	<?php if ($item->displayHits) :?>
-			<span class="mod-articles-category-hits">
-            (<?php echo $item->displayHits; ?>)  </span>
-        <?php endif; ?></a>
-            <?php endif; ?>
-        </h<?php echo $item_heading; ?>>
+	    <p>
 
        	<?php if ($params->get('show_author')) :?>
        		<span class="mod-articles-category-writtenby">
@@ -111,13 +96,13 @@ defined('_JEXEC') or die;
 			(<?php echo $item->displayCategoryTitle; ?>)
 			</span>
 		<?php endif; ?>
-        <?php if ($item->displayDate) : ?>
-			<span class="mod-articles-category-date"><?php echo $item->displayDate; ?></span>
-		<?php endif; ?>
 		<?php if ($params->get('show_introtext')) :?>
 			<p class="mod-articles-category-introtext">
 			<?php echo $item->displayIntrotext; ?>
 			</p>
+		<?php endif; ?>
+		    <?php if ($item->displayDate) : ?>
+			<span class="mod-articles-category-date"><?php echo $item->displayDate; ?></span>
 		<?php endif; ?>
 
 		<?php if ($params->get('show_readmore')) :?>
@@ -137,7 +122,7 @@ defined('_JEXEC') or die;
 	        </a>
 			</p>
 		<?php endif; ?>
-	</li>
+	</p><br />
 	<?php endforeach; ?>
 <?php endif; ?>
 </ul>
