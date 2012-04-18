@@ -12,7 +12,8 @@
 #body {
 	background: url('../images/bg_body.jpg') top center no-repeat;
 	padding-bottom: 40px;
-	margin-top: 17px;
+	margin-top: 15px;
+	margin-top: 15px;
 }
 
 .home #body {background: url('../images/bg_bodyHome.jpg') top center no-repeat; margin-top: 0;}
