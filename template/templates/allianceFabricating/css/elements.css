@@ -34,6 +34,8 @@ a:hover {
 	text-decoration: underline;
 }
 
+.item-page a {color: #ed1c2a;}
+
 ul {
 	margin: 0;
 	padding: 0;
