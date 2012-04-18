@@ -47,18 +47,3 @@
 }
 
 #copyright p {margin: 0}
-
-.chromeFrameInstallDefaultStyle {
-  width: 100%; /* default is 800px */
-  border: 5px solid blue;
-	margin-top: 50px;
-}
-
-.chromeFrameOverlayContent {
-	margin-top: -250px;
-	height: 400px;
-}
-
-.chromeFrameOverlayContent IFRAME {
-	height: 400px;
-}
