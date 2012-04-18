@@ -33,8 +33,6 @@ $analytics = "UA-30995720-1";
 
  	<jdoc:include type="head" />
 	
-	<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=IE8"> -->
-
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="/templates/<?= $this->template ?>/resources/favicon.ico">
 	<link rel="apple-touch-icon" href="/templates/<?= $this->template ?>/resources/apple-touch-icon.png">
@@ -56,15 +54,6 @@ $analytics = "UA-30995720-1";
 
 <body class="<?= $menu ?>">
 	
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.js"></script>
-  <script>
-   // You may want to place these lines inside an onload handler
-   CFInstall.check({
-     mode: "overlay",
-		 url: "/?tmpl=gcf"
-   });
-  </script>
-	
 	<div id="nav">
 		<jdoc:include type="modules" name="nav" style="rounded" />
 	</div>
@@ -78,9 +67,11 @@ $analytics = "UA-30995720-1";
 		<div id="content">
 			<jdoc:include type="component" />
 		</div>
+		<?php if ($this->countModules('sidebar')): ?>
 		<div id="sidebar">
 			<jdoc:include type="modules" name="sidebar" style="xhtml" />
 		</div>
+		<?php endif; ?>
 		<div class="clear"></div>
 		<div id="bottom">
 			<jdoc:include type="modules" name="bottom" style="xhtml" />
