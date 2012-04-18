@@ -88,3 +88,12 @@
 	font-size: 11px;
 	margin: 0;
 }
+
+.moduletable.news p.viewAll {
+	margin-bottom: 0;
+}
+
+.moduletable.news .viewAll a {
+	float: right;
+	color: #fff;
+}
