@@ -19,6 +19,12 @@
 	color: #ed1c2a;
 }
 
+/* simple image gallery */
+
+#body .sigProContainer li {list-style: none}
+
+/* news category blog list */
+
 .items-leading h1 {
 	font-size: 14px;
 	color: #ed1c2a;
