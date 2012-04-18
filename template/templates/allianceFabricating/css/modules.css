@@ -69,3 +69,17 @@
 	width: 280px;
 	margin-left: 50px;
 }
+
+/*bottom mods*/
+.moduletable.news p {margin-bottom: 5px;}
+.moduletable.news a {color: #ed1c2a;}
+
+.moduletable.news .mod-articles-category-date,
+.moduletable.news .mod-articles-category-readmore {width: auto}
+
+.moduletable.news .mod-articles-category-date {float: left}
+.moduletable.news .mod-articles-category-readmore {
+	float: right;
+	font-size: 11px;
+	margin: 0;
+}
