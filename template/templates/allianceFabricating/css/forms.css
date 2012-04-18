@@ -31,3 +31,5 @@ button {  width: auto; overflow: visible; }
 }
 
 .submitButton {margin-left: 100px}
+
+.chronoform {display: none}
