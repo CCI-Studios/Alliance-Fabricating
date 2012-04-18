@@ -57,6 +57,11 @@
 }
 .module.masthead h2 {margin-bottom: 10px;}
 
+#sidebar .moduletable:first-child {margin-top: 0}
+#sidebar .moduletable {
+	margin-top: 1em;
+}
+
 #sidebar .moduletable,
 #bottom .moduletable {
 	background: url('../images/bg_module.png') bottom right no-repeat;
