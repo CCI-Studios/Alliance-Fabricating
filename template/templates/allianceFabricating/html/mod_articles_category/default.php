@@ -125,4 +125,5 @@ defined('_JEXEC') or die;
 	</p><br />
 	<?php endforeach; ?>
 <?php endif; ?>
+<p class="viewAll"><a href="http://alliance.ccistaging.com/news.html">View All</a></p>
 </ul>
