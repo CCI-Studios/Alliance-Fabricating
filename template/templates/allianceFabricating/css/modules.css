@@ -92,11 +92,14 @@
 	margin: 0;
 }
 
-.moduletable.news p.viewAll {
+/*also included in sidebar mods*/
+.moduletable p.viewAll {
 	margin-bottom: 0;
+	position: absolute;
+	right: 0;
+	bottom: 0;
 }
 
-.moduletable.news .viewAll a {
-	float: right;
+.moduletable .viewAll a {
 	color: #fff;
 }
