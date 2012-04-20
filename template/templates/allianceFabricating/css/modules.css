@@ -60,12 +60,13 @@
 #sidebar .moduletable:first-child {margin-top: 0}
 #sidebar .moduletable {
 	margin-top: 1em;
+	position: relative;
+	padding: 0 0 30px 0;
 }
 
 #sidebar .moduletable,
 #bottom .moduletable {
 	background: url('../images/bg_module.png') bottom right no-repeat;
-	padding-bottom: 11px;
 }
 
 #bottom .moduletable:first-child {margin-left: 0;}
@@ -73,6 +74,8 @@
 	float: left;
 	width: 280px;
 	margin-left: 50px;
+	position: relative;
+	padding: 0 0 10px 0;
 }
 
 /*bottom mods*/
