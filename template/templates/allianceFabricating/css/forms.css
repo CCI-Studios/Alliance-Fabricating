@@ -30,6 +30,8 @@ button {  width: auto; overflow: visible; }
 	width: 100px;
 }
 
+ul.sigProClassic span.sigProPseudoCaption, ul.sigProClassic span.sigProCaption {padding: 0}
+
 .submitButton {margin-left: 100px}
 
 .chronoform {display: none}
