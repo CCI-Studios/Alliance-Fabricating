@@ -35,6 +35,7 @@
 .module.masthead {
 	overflow: hidden;
 	background: url('../images/masthead_image.jpg') top center no-repeat;
+	font-family: Arial, "Times New Roman", Helvetica, sans-serif;
 }
 
 .module.masthead > div {
