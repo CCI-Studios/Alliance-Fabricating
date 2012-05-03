@@ -10,6 +10,7 @@
 // no direct access
 defined('_JEXEC') or die;
 ?>
+<h3><a href="http://alliance.ccistaging.com/news.html">RECENT NEWS</a></h3>
 <ul class="category-module<?php echo $moduleclass_sfx; ?>">
 <?php if ($grouped) : ?>
 	<?php foreach ($list as $group_name => $group) : ?>
@@ -126,4 +127,3 @@ defined('_JEXEC') or die;
 	<?php endforeach; ?>
 <?php endif; ?>
 </ul>
-<p class="viewAll"><a href="http://alliance.ccistaging.com/news.html">View All</a></p>
