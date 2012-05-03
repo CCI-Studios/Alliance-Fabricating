@@ -76,8 +76,13 @@
 	width: 280px;
 	margin-left: 50px;
 	position: relative;
-	padding: 0 0 10px 0;
+	padding: 0;
 }
+
+#sidebar .moduletable h3 a,
+#bottom .moduletable h3 a {color: #fff;}
+
+#bottom .moduletable a {color: #ed1c2a;}
 
 /*bottom mods*/
 .moduletable.news p {margin-bottom: 5px;}
