@@ -35,3 +35,9 @@ ul.sigProClassic span.sigProPseudoCaption, ul.sigProClassic span.sigProCaption {
 .submitButton {margin-left: 100px}
 
 .chronoform {display: none}
+
+/*gallery*/
+
+ul.sigProClassic span.sigProPseudoCaption, ul.sigProClassic span.sigProCaption {
+	font-size: 12px;
+}
