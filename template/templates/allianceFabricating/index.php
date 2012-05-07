@@ -68,11 +68,6 @@ $analytics = "UA-30995720-1";
 		<div id="content">
 			<jdoc:include type="component" />
 		</div>
-		<?php if ($this->countModules('sidebar')): ?>
-		<div id="sidebar">
-			<jdoc:include type="modules" name="sidebar" style="xhtml" />
-		</div>
-		<?php endif; ?>
 		<div class="clear"></div>
 		<div id="bottom">
 			<jdoc:include type="modules" name="bottom" style="xhtml" />
