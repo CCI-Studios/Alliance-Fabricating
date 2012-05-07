@@ -20,14 +20,8 @@
 
 #content {
 	float: left;
-	width: 620px;
+	width: 100%;
 	padding: 0 20px 0 0px;
-}
-
-#sidebar {
-	float: left;
-	width: 280px;
-	padding: 0 0px 0px 20px;
 }
 
 #bottom {
