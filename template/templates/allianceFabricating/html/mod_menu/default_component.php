@@ -1,9 +1,8 @@
 <?php
 /**
- * @version		$Id: default_component.php 21322 2011-05-11 01:10:29Z dextercowley $
  * @package		Joomla.Site
  * @subpackage	mod_menu
- * @copyright	Copyright (C) 2005 - 2011 Open Source Matters, Inc. All rights reserved.
+ * @copyright	Copyright (C) 2005 - 2012 Open Source Matters, Inc. All rights reserved.
  * @license		GNU General Public License version 2 or later; see LICENSE.txt
  */
 
@@ -24,22 +23,18 @@ else { $linktype = $item->title;
 switch ($item->browserNav) :
 	default:
 	case 0:
-?>
-	<a <?php echo $class; ?>href="<?php echo $item->flink; ?>" <?php echo $title; ?>><span><span>
-		<?php echo $linktype; ?>
-	</span></span></a><?php
+?><a <?php echo $class; ?>href="<?php echo $item->flink; ?>" <?php echo $title; ?>>
+	<span><span><?php echo $linktype; ?></span></span>
+</a><?php
 		break;
 	case 1:
 		// _blank
-?><a <?php echo $class; ?>href="<?php echo $item->flink; ?>" target="_blank" <?php echo $title; ?>><span><span>
-	<?php echo $linktype; ?>
-</span></span></a><?php
+?><a <?php echo $class; ?>href="<?php echo $item->flink; ?>" target="_blank" <?php echo $title; ?>>
+<span><span><?php echo $linktype; ?></span></span></a><?php
 		break;
 	case 2:
 	// window.open
-?><a <?php echo $class; ?>href="<?php echo $item->flink; ?>" onclick="window.open(this.href,'targetWindow','toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes');return false;" <?php echo $title; ?>><span><span>
-	<?php echo $linktype; ?>
-</span></span></a>
+?><a <?php echo $class; ?>href="<?php echo $item->flink; ?>" onclick="window.open(this.href,'targetWindow','toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes');return false;" <?php echo $title; ?>><span><span><?php echo $linktype; ?></span></span></a>
 <?php
 		break;
 endswitch;

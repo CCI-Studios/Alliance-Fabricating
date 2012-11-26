@@ -1,9 +1,8 @@
 <?php
 /**
- * @version		$Id: default_separator.php 21322 2011-05-11 01:10:29Z dextercowley $
  * @package		Joomla.Site
  * @subpackage	mod_menu
- * @copyright	Copyright (C) 2005 - 2011 Open Source Matters, Inc. All rights reserved.
+ * @copyright	Copyright (C) 2005 - 2012 Open Source Matters, Inc. All rights reserved.
  * @license		GNU General Public License version 2 or later; see LICENSE.txt
  */
 
@@ -20,6 +19,4 @@ if ($item->menu_image) {
 else { $linktype = $item->title;
 }
 
-?><span class="separator"><span><span>
-	<?php echo $title; ?><?php echo $linktype; ?>
-</span></span></span>
+?><span class="separator"><span><span><?php echo $title; ?><?php echo $linktype; ?></span></span></span>
